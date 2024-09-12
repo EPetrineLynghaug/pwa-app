@@ -41,8 +41,10 @@ For å sette opp prosjektet kan du bruke følgende struktur:
 	•	style.css: Inneholder styling for appen.
 	•	app.js: Håndterer appens funksjonalitet og logikk.
 	•	sw.js: Service Worker-filen som styrer caching og offline-funksjonalitet.
-	•	manifest.json: Applikasjonens manifestfil som beskriver appens oppførsel    ved installasjon.
-	•	utils: En mappe for hjelpefunksjoner, som for eksempel datohåndtering og matematiske operasjoner.
+	•	manifest.json: Applikasjonens manifestfil som beskriver appens oppførsel
+        ved installasjon.
+	•	utils: En mappe for hjelpefunksjoner, som for eksempel datohåndtering og 
+        matematiske operasjoner.
 
 
 ## Netlify:
