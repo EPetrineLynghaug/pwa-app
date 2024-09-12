@@ -1,13 +1,13 @@
 
 # Progressive Web App (PWA) 
 
-## Description
+## Forklaring
 
 Dette prosjektet er en Progressive Web App (PWA) som kan installeres og kjøres på datamaskinen din. Hovedmålet er å gi en opplevelse som føles som en native applikasjon, med rask ytelse og støtte for offline-funksjonalitet. Applikasjonen fungerer best i Chrome, men har delvis støtte i Firefox og Safari, med noen begrensninger.
 
 ## Funksjoner
 
-	•	Lagre som applikasjon: Applikasjonen kan installeres og lagres på din enhet, slik at du kan bruke den uten å åpne en nettleser.
+	•	Lagre som applikasjon: Applikasjonen kan installeres og lagres på din       enhet, slik at du kan bruke den uten å åpne en nettleser.
 	•	Offline-funksjonalitet: PWA-en laster ned nødvendige ressurser første gang du bruker appen, og lagrer dem lokalt (via cache). Dette gjør at du kan bruke appen selv når du er offline.
 	•	Push-varsler: Applikasjonen støtter push-varsler, som kan mottas selv om appen ikke er åpen. Push-varsler kjører i bakgrunnen og holder deg oppdatert med ny informasjon.
 	•	Rask ytelse: Ettersom applikasjonen er cachet lokalt, starter den opp raskt og er tilgjengelig nesten umiddelbart.
