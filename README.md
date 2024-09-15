@@ -47,7 +47,7 @@ This project is a Progressive Web App (PWA) that can be installed and run on you
   - **index.html:** The main file for the app’s user interface.
   -  **style.css:** Contains the styling for the app.
   - **app.js:** Handles the app’s functionality and logic.
-  - sw.js: The Service Worker file that manages caching and offline functionality.
+  - **sw.js:** The Service Worker file that manages caching and offline functionality.
   - **manifest.json:** The application’s manifest file that describes the app’s behavior upon installation.
   - **utils:** A folder for utility functions, such as date handling and mathematical operations.
 
