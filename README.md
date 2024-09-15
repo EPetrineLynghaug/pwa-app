@@ -1,54 +1,78 @@
-
-# Progressive Web App (PWA) 
-
-## Forklaring
-
-Dette prosjektet er en Progressive Web App (PWA) som kan installeres og kjøres på datamaskinen din. Hovedmålet er å gi en opplevelse som føles som en native applikasjon, med rask ytelse og støtte for offline-funksjonalitet. Applikasjonen fungerer best i Chrome, men har delvis støtte i Firefox og Safari, med noen begrensninger.
-
-## Funksjoner
-
-	•	Lagre som applikasjon: Applikasjonen kan installeres og lagres på din
-           enhet, slik at du kan bruke den uten å åpne en nettleser.
-	•	Offline-funksjonalitet: PWA-en laster ned nødvendige ressurser første gang
-         du bruker appen, og lagrer dem lokalt (via cache). Dette gjør at du kan bruke appen selv når du er offline.
-	•	Push-varsler: Applikasjonen støtter push-varsler, som kan mottas selv om 
-        appen ikke er åpen. Push-varsler kjører i bakgrunnen og holder deg oppdatert med ny informasjon.
-	•	Rask ytelse: Ettersom applikasjonen er cachet lokalt, starter den opp raskt
-         og er tilgjengelig nesten umiddelbart.
-	•	Native-lignende opplevelse: Målet er å gi brukeren en opplevelse som ligner 
-        på en native mobil- eller desktop-app, med minimal ventetid og sømløs bruk.
-
-## Begrensninger
-
-	•	Støtte i nettlesere: Applikasjonen fungerer optimalt i Chrome, men har 
-        begrenset støtte i Firefox og Safari på grunn av restriksjoner i disse nettleserne. Funksjonaliteter som installasjon og push-varsler er best støttet i Chrome.
-	•	Installasjon: Funksjonen “Install this app” fungerer stort sett bare i 
-        Chrome, og lar deg lagre appen direkte på datamaskinen din.
-	•	Ikke testet med API-kall: Applikasjonen er foreløpig ikke testet med 
-        API-kall, da dette vil ta ekstra tid å implementere.
-
-## Teknologi
-
-	•	Service Workers: Brukes for å cache appens ressurser og muliggjøre 
-        offline-funksjonalitet.
-	•	App Manifest: Definerer hvordan appen skal oppføre seg når den er 
-         installert, inkludert ikon og andre visuelle elementer.
-
-## Prosjektstruktur
-For å sette opp prosjektet kan du bruke følgende struktur:
-
-	•	index.html: Hovedfilen for appens brukergrensesnitt.
-	•	style.css: Inneholder styling for appen.
-	•	app.js: Håndterer appens funksjonalitet og logikk.
-	•	sw.js: Service Worker-filen som styrer caching og offline-funksjonalitet.
-	•	manifest.json: Applikasjonens manifestfil som beskriver appens oppførsel
-        ved installasjon.
-	•	utils: En mappe for hjelpefunksjoner, som for eksempel datohåndtering og 
-        matematiske operasjoner.
+# 	Lecture Notes: Progressive Web App (PWA). 
 
 
-## Netlify:
-https://main--pwa-app-demo1.netlify.app/
+## Description
+This project is a Progressive Web App (PWA) that can be installed and run on your computer. The main goal is to provide an experience that feels like a native application, with fast performance and support for offline functionality. The application works best in Chrome, but has partial support in Firefox and Safari, with some limitations.”
+
+## Key Features of Web Workers
+
+<details>
+  <summary><strong>Click to read more</strong></summary>
+
+  - **Simple Setup:**  Express is easy to install and configure, making it a great choice for lightweight applications.
+  - **Middleware Support:**  It offers support for middleware, allowing you to handle requests and responses more efficiently by layering different functionalities.
+  - **Routing:** Express simplifies the handling of multiple routes in an organized manner.
+  - **Asynchronous Performance:** Non-blocking behavior ensures that the server can handle multiple requests efficiently.
+  - **Built on Top of Node.js:** It leverages the power of Node.js without interfering with its core, providing a flexible environment for developers.
+  - 
+  - **Save as an app:** The application can be installed and stored on your device, allowing you to use it without opening a browser.
+  - **Offline functionality:** The PWA downloads the necessary resources the first time you use the app and stores them locally (via cache). This allows you to use the app even when you are offline.
+  - **Push notifications:** The application supports push notifications, which can be received even if the app is not open. Push notifications run in the background and keep you updated with new information.
+  - **Fast performance:** Since the application is cached locally, it starts up quickly and is available almost immediately.
+  - **Native-like experience:** The goal is to provide the user with an experience similar to a native mobile or desktop app, with minimal wait time and seamless use.
+
+
+</details>
+
+## Advantages of Express
+<details>
+  <summary><strong>Click to read more</strong></summary>
+
+1. **Ease of Setup:** It’s quick and simple to get started with, making it ideal for small and scalable projects alike.
+2. **Middleware Support:** The middleware system allows for better control over how requests are handled and processed.
+3. **Routing:** Express simplifies the handling of multiple routes in an organized manner.
+4. **Asynchronous Performance:** Non-blocking behavior ensures that the server can handle multiple requests efficiently.
+5. **Scalability:** It has a large and active ecosystem with many third-party modules that can easily be integrated.
+</details>
+
+## Disadvantages of Express
+
+<details>
+  <summary><strong>Click to read more</strong></summary>
+
+1. **No Built-in Features:** Unlike some other frameworks, Express doesn’t come with a lot of features out of the box, which means you need to build or integrate them manually.
+2. **No Built-in Database Support:** : Express doesn’t include a database system, so you need to manage databases separately, for instance, by using Node.js with a database like MongoDB, MySQL, or PostgreSQL.
+
+</details>
+
+
+## In this project, we aim to:
+
+<details>
+  <summary><strong>Click to read more</strong></summary>
+
+- **Set up a basic web server using Node.js.** 
+- **Build a multi-page application with various routes.** 
+- **Implement middleware to handle tasks like managing date information.** 
+</details>
+
+## Tech Stack
+
+<details>
+  <summary><strong>Click to read more</strong></summary>
+	
+- **Node.js:**  As the runtime environment.
+- **Express:** Express: For handling routing, middleware, and server-side logic.
+</details>
+
+
+
+
+
+
+
+
+__________________
 
 
 
